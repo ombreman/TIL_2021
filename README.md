@@ -1,0 +1,2 @@
+# diary
+daily notes
