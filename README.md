@@ -1,2 +1,2 @@
-# diary
-daily notes
+# What I studied
+daily study notes
