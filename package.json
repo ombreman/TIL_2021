@@ -1,0 +1,22 @@
+{
+  "name": "til_2021",
+  "version": "1.0.0",
+  "description": "- Logging what I learned every single day - Expanding backend knowledge - Studying Basic Computer Science - Learning libraries",
+  "main": "function_prac.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ombreman/TIL_2021.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ombreman/TIL_2021/issues"
+  },
+  "homepage": "https://github.com/ombreman/TIL_2021#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
