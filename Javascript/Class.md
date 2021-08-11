@@ -1,4 +1,4 @@
-Class
+## Class
 
 It's one of functions in Javascript.
 <script>

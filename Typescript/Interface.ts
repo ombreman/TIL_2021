@@ -25,6 +25,11 @@ interface House_B extends House_A {
 // for example
 
 let A : House_A = { kitchen : 'no' }
-let B : House_B = { kitchen : 'yes', floor : 20, size : 300}
+let B : House_B = { kitchen : 'yes', floor : 20, size : 300} // why error???
 
-// why error???
+// type alias has the similar thing
+
+type Animal = { name : string }
+type Cat = { age : number } & Animal
+
+// delcaration of interfac can be done but type
