@@ -16,4 +16,3 @@ function getStudentDetails(studentID) {
 }
 function saveStudentDetails(student) {
 }
-saveStudentDetails({});

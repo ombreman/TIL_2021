@@ -29,7 +29,3 @@ function getStudentDetails(studentID: number): Student
 function saveStudentDetails (student: Student): void {
 
 }
-
-saveStudentDetails ({
-  
-})
