@@ -4,4 +4,4 @@
 1. 
 
 ### Vocabulary
-1. terser:
+1. terser: really really simple
