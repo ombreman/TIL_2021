@@ -1,14 +1,12 @@
-console.log('hi my name is changgil jeong')
+//Object
 
-const a = 5
-const b = 2
-let myName = "changgil"
-// let is for creation
+const player = {
+  name: "Changgil",
+  points: 10,
+  fat: true
+}
 
-console.log(a + b)
-console.log('hello' + myName)
-
-// You can change myName without 'let'
-myName = 'Gil'
-
-console.log('My name is' + myName)
+console.log(player)
+console.log(player.name)
+console.log(player.points)
+console.log(player.fat)
