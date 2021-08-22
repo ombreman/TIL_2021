@@ -1,7 +1,9 @@
-// Function
-function sayHello(anyname) {
-  console.log("Hello my name is " + anyname)
+const player = {
+  name: "Changgil",
+  sayHello: function(name) {
+    console.log("Hi my name is " + name)
+  }
 }
 
-sayHello("창길")
-alert("Hey")
+console.log(player.name)
+player.sayHello("Gil")
