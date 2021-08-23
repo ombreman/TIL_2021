@@ -1,9 +1,20 @@
-const player = {
-  name: "Changgil",
-  sayHello: function(name) {
-    console.log("Hi my name is " + name)
+const calculator = {
+  addition: function (a, b) {
+    alert(a + b)
+  },
+  division: function (a, b) {
+    alert(a / b)
+  },
+  multiplication: function (a, b) {
+    alert(a * b)
   }
 }
 
-console.log(player.name)
-player.sayHello("Gil")
+const age = 30
+function calculateKrAge(ageOfForeigner) {
+  return ageOfForeigner + 2
+}
+
+const krAge = calculateKrAge(age)
+
+console.log(krAge)
