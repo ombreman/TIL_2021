@@ -1,7 +1,7 @@
-const age = parseInt(prompt("How old are you?"))
+const title = document.querySelectorAll(".hello h1")
+const title2 = document.querySelector("#hello")
+const title3 = document.getElementById("hello")
 
-if (isNaN(age)) {
-  console.log("Please write a number")
-} else {
-  console.log("Thank you for writing your age")
-}
+console.log(title)
+console.log(title2)
+console.log(title3)
