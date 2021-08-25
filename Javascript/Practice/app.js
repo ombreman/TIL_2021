@@ -1,7 +1,7 @@
-const title = document.querySelectorAll(".hello h1")
-const title2 = document.querySelector("#hello")
-const title3 = document.getElementById("hello")
+const title = document.querySelector("div.hello:first-child h1")
 
-console.log(title)
-console.log(title2)
-console.log(title3)
+function handleTitleClick() {
+  title.style.color = "red"
+}
+
+title.addEventListener("click", handleTitleClick)
