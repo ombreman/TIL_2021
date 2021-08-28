@@ -1,13 +1,19 @@
-const h1 = document.querySelector("div.hello:first-child h1")
+// const loginForm = document.getElementById("login-form")
+// const loginInput = loginForm.querySelector("input")
+// const loginButton = loginForm.querySelector("button")
 
-function handleTitleClick() {
-  // const clickedClass = "clicked"
-  h1.classList.toggle("clicked")
-  // if (h1.classList.contains(clickedClass)) {
-  //   h1.classList.remove(clickedClass)
-  // } else {
-  //   h1.classList.add(clickedClass)
-  // }
+// Below is the same as above 
+const loginInput = document.querySelector("#login-form input")
+const loginButton = document.querySelector("#login-form input")
+
+function onLoginBtnClick() {
+  const username = loginInput.value
+  if ( username === "") {
+    alert("Please write your name!")
+  } else if ( username.length > 15 ) {
+    alert("Your name is too long mate!")
+  }
 }
 
-h1.addEventListener("click", handleTitleClick)
+
+loginButton.addEventListener("click", onLoginBtnClick)
