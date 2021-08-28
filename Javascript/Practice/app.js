@@ -6,14 +6,19 @@
 const loginInput = document.querySelector("#login-form input")
 const loginButton = document.querySelector("#login-form input")
 
-function onLoginBtnClick() {
-  const username = loginInput.value
-  if ( username === "") {
-    alert("Please write your name!")
-  } else if ( username.length > 15 ) {
-    alert("Your name is too long mate!")
-  }
+const link = document.querySelector("a")
+
+function onLoginBtnClick(event) {
+  event.preventDefault()
+  console.log(loginInput.value)
+}
+
+function handleLinkClick(event) {
+  event.preventDefault()
+  console.dir(event)
+  alert("Let's move!")
 }
 
 
-loginButton.addEventListener("click", onLoginBtnClick)
+loginButton.addEventListener("submit", onLoginBtnClick)
+link.addEventListener("click", handleLinkClick)
