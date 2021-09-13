@@ -1,0 +1,3 @@
+### What is SEO?
+
+SEO stands for Search Engin Optimization. In simple terms, it means the process of improving your site ot increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.
