@@ -10,4 +10,5 @@
 1. NaN: Not a number
 2. OOP: Object Oriented Programming
 3. TDD: Test Driven Development
-4. 
+4. SEO: Search Engine Optimization
+5. DOM: Document Object Model
