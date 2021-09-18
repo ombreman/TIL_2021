@@ -3,12 +3,12 @@
 // use this for valina JavaScript.
 'use strict';
 
-// 2. Variable
+// 2. Variable, r/w(read / write)
 // let (added in ES6) - mutable
 let name = 'changgil';
 console.log(name);
 name = 'hello';
-console.log(name)
+console.log(name);
 
 // var (don't ever use this!)
 // var hoisting (move declaration from bottom to top)
@@ -19,13 +19,19 @@ console.log(name)
 }
 console.log(age);
 
-// 3. Constants
+// 3. Constant, r(read only)
+// use const whenever possible.
+// only use let if variable needs to change.
+const daysInWeek = 7;
+const maxNumber = 5;
+
+// Note!
+// Immutable date types: primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in JS
 // favor immutable date type always for a few reasons:
 //  - security
 //  - thread safety
 //  - reduce human mistakes
-const daysInWeek = 7;
-const maxNumber = 5;
 
 // 4. Variable types
 // primitive, single item: number, string, boolean, null, undefined, symbol
