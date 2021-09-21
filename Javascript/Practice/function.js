@@ -10,6 +10,7 @@
 // e.g. createCardAndPoint -> createCard, createPoint
 // function is object in JS
 
+
 // 2. Parameters
 // primitive parameters: passed by value
 // object parameters: passed by reference
@@ -20,11 +21,14 @@ const gil = { name: 'gil' };
 changeName(gil);
 console.log(gil);
 
+
 // 3. Default parameters (added in ES6)
 function showMessage(message, from = 'unknown') {
   console.log(`${message} by ${from}`);
 }
 showMessage('Hi!');
+
+
 // 4. Rest parameters (added in ES6)
 function printAll(...args) {
   for (let i = 0; i < args.length; i++) {
@@ -39,6 +43,7 @@ function printAll(...args) {
 }
 
 printAll('dream', 'coding', 'gil');
+
 
 // 5. Local scope - "You can only see outside from inside but inside from outside"
 let globalMessage = 'global'; // global variable
@@ -55,12 +60,14 @@ function printMessage() {
 printMessage();
 console.log(message);
 
+
 // 6. Return a value
 function sum(a, b) {
   return a + b;
 }
 const result = sum(1, 2); // 3
 console.log(`sum: ${sum(1, 2)}`);
+
 
 // 7. Early return, early exit
 // bad case
