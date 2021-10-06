@@ -33,6 +33,9 @@ function createItem(text) {
   name.setAttribute('class', 'item__name');
   name.innerText = text;
 
+
+
+
   const deleteBtn = document.createElement('button');
   deleteBtn.setAttribute('class', 'item__delete');
   deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>'
