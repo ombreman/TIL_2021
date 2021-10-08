@@ -34,12 +34,12 @@ function createItem(text) {
       </div>
       <div class="item__divider"></div>`
 
-  // const item = document.createElement('div');
-  // item.setAttribute('class', 'item');
+  const item = document.createElement('div');
+  item.setAttribute('class', 'item');
 
-  // const name = document.createElement('span');
-  // name.setAttribute('class', 'item__name');
-  // name.innerText = text;
+  const name = document.createElement('span');
+  name.setAttribute('class', 'item__name');
+  name.innerText = text;
 
 
 
