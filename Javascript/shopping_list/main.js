@@ -48,15 +48,6 @@ addBtn.addEventListener('click', () => {
   onAdd();
 });
 
-// input.addEventListener('keydown', event => {
-//   if (event.isComposing) {
-//     return;
-//   }
-//   if (event.key === 'Enter') {
-//     onAdd();
-//   }
-// });
-
 items.addEventListener('click', event => {
   const id = event.target.dataset.id
   if (id) {
