@@ -46,7 +46,20 @@
 
     <script>
       const boxes = document.querySelectorAll('.box');
-      console.log(boxes);
+      // console.log(boxes);
+
+      const callback = (entires, obsever) => {
+        entries.forEach((entry) => {
+          if (entry.inIstersecting) {
+            entry.target.classList.add('active');
+          } else {
+            entry.target.classList.remove('active');
+          }
+        });
+      };
+      const observer = new IntersectionObserver(callback);
+
+      boxes.forEach((box) => observer.observe(box));
     </script>
   </body>
 </html>
