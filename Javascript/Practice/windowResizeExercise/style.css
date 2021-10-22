@@ -1,10 +1,15 @@
-h1 small {
+body {
+  background-color: beige;
+}
+
+.smallScreen {
   background-color: cornflowerblue;
 }
 
-h1 medium {
-  background-color: purple;
+.mediumScreen {
+  color: purple;
 }
-h1 big {
-  background-color: yellow;
+
+.bigScreen {
+  color: yellow;
 }

@@ -1,22 +1,22 @@
-// small: blue, medium: purple, big: yellow
-const h1 = document.querySelector("h1");
-console.log(window.innerWidth);
+const body = document.body;
 
-function handleWindowResize() {
-  const smallWindow = "small";
-  const mediumWindow = "medium";
-  const bigWindow = "big";
+const big_screen = "bigScreen"
+const medium_screen = "mediumScreen"
+const small_screen = "smallScreen"
 
-  if (400 > window.innnerWidth > 300) {
-    h1.classList.add(smallWindow);
-  } else if (500 > window.innerWidth > 400) {
-    h1.classList.remove(smallWindow);
-    h1.classList.add(mediumWindow);
-  } else if (window.innerwidth > 500) {
-    h1.classList.remove(mediumWindow);
-    h1.classList.remove(smallWindow);
-    h1.classList.add(bigWindow);
+const width = window.innerWidth
+
+function handleResize() {
+  if (width > 1000) {
+    body.classList.add(big_screen)
+    body.classList.remove(medium_screen)
+  } else if (width <= 1140 && width >= 700) {
+    body.classList.add(medium_screen)
+    body.classList.remove(big_screen)
+  } else {
+    body.classList.remove(medium_screen)
+    body.classList.add(small_screen)
   }
 }
 
-window.addEventListener("resize", handleWindowResize);
+window.addEventListener("resize", handleResize)
