@@ -7,9 +7,9 @@ body {
 }
 
 .mediumScreen {
-  color: purple;
+  background-color: purple;
 }
 
 .bigScreen {
-  color: yellow;
+  background-color: yellow;
 }
