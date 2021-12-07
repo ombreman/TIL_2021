@@ -7,6 +7,9 @@
 ### Vocabulary
 
 1. terser: really really simple
+2. retrieve = recover
+3. purge = remove
+4. malicious = spiteful
 
 ### Abbreviation
 
@@ -17,4 +20,4 @@
 5. DOM: Document Object Model
 6. JSON: JavaScript Object Notation
 7. REST API: Representational State Transfer Application Programming Interface
-8.
+8. SSL: Secure Socket Layer
